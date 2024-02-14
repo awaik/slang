@@ -13,14 +13,14 @@ enum GptModel {
   gpt3_5_16k(
     'gpt-3.5-turbo-0125',
     GptProvider.openai,
-    defaultInputLength: 8000,
+    defaultInputLength: 2000,
     costPerInputToken: 0.000003,
     costPerOutputToken: 0.000004,
   ),
   gpt4_8k(
     'gpt-4-0125-preview',
     GptProvider.openai,
-    defaultInputLength: 4000,
+    defaultInputLength: 2000,
     costPerInputToken: 0.00003,
     costPerOutputToken: 0.00006,
   ),
