@@ -13,7 +13,7 @@ enum GptModel {
   gpt3_5_16k(
     'gpt-3.5-turbo-0125',
     GptProvider.openai,
-    defaultInputLength: 2000,
+    defaultInputLength: 3000,
     costPerInputToken: 0.000003,
     costPerOutputToken: 0.000004,
   ),
