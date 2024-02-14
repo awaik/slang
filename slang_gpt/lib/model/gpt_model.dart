@@ -4,7 +4,7 @@ enum GptProvider {
 
 enum GptModel {
   gpt3_5_4k(
-    'gpt-4-0125-preview',
+    'gpt-3.5-turbo',
     GptProvider.openai,
     defaultInputLength: 2000,
     costPerInputToken: 0.0000015,
